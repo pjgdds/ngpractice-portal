@@ -1,4 +1,10 @@
 import './globals.css';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Next Generation Dental Patient Portal',
+  description: 'Complete forms before you arrive. Secure patient portal for Next Generation Dental.',
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
